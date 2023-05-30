@@ -1,0 +1,192 @@
+body {
+    margin: 10px 10px;
+    background-color: #ffffff;
+    @font-face: "wavefont";
+}
+
+footer img {
+    max-width: 400px;
+    width:80%;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 90px;
+    display: block
+}
+
+section.hero {
+    background:rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+ h4 { 
+    max-width: 400px;
+    width:80%;
+    padding: 0.1px;
+    margin: 0.1px auto;
+    font-size: 20px;
+    text-align: center
+    }
+    
+footer nav {
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+nav img {
+    max-width: 1400px;
+    width:100%;
+    padding: 1px;
+    margin: 1px auto;
+    display: block  
+    
+}
+
+h5 {
+    margin:10px, 190px , 10px;
+    display: flex;
+    padding:20px 150px 20px;
+    font-size: 18px;
+    background-color: #ffffff;
+    line-height: 0.1; 
+    text-align: center
+}
+
+footer  {
+    margin: 1px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1px;
+    background-color: #ffffff;
+    padding: 3px; 
+    margin-bottom: 0 0
+}
+
+img {
+    max-width: 100%; 
+    display: block
+    }
+
+    main, footer, .card {
+        max-width: 10000px;
+        margin: auto;
+        padding: 20px;
+    } 
+
+  footer, .card {
+        gap:20px;
+        background: #fff;
+        margin-bottom: 320px;
+    }
+    
+ footer, .card img {
+        width: 90%;
+        padding: 10px;
+        margin: 5px auto;
+        display: block
+        
+    }
+
+  h2 {
+        margin: 20px;
+        padding: 20px 10px 20px;
+        font-size: 19px;
+    }
+
+    h3{
+    margin: 0 160px 0;
+    padding: 20px 10px 20px;
+    font-size: 25px;
+    text-align: center
+}
+
+   p {
+        margin: auto;
+        display: flex;
+        padding:20px 10px 20px;
+        font-size: 16px;
+        line-height: 1.5; 
+    }
+    
+ .card h2, .card p {
+        width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+        display: block
+    }
+   
+main, footer, .card  {
+    max-width: 10000px;
+    margin:5px auto;
+    padding: 10px;
+}
+
+h1 {
+    margin: 10px 20px 5px;
+    width: 55%;
+    padding: 10px 10px 5px;
+    font-size: 25px;
+    text-align: center
+}
+
+ul {
+display: flex; 
+gap:100px;
+width: 20%;
+margin: 10px 110px 5px;
+padding: 10px 90px 5px;
+list-style-type: none;
+font-size: 21px;
+}  
+
+nav {
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+    @media (max-width: 600px) { 
+
+        body { 
+            background: yellow;
+        }
+        
+        .card {
+            flex-direction: column; 
+        }
+    
+        .card h2 .card p .card h1 .card a .h3 .h4 .h5 {
+            width: 100%;
+        }
+
+      .card h1 .card a {
+            width: 40%;
+        }
+
+    
+        .card .img {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 400px) { 
+        body {
+            background: chartreuse;
+        }
+    
+        header .nav {
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+        }
+    }
+
+
